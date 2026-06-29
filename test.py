@@ -1,5 +1,5 @@
 # -------------------------------------------------------------------
-# 1. KPI Function (copied from notebook)
+# 1. KPI Function 
 # -------------------------------------------------------------------
 def calculate_efficiency(actual_output, target_output):
     """Return efficiency percentage; avoid division by zero."""
@@ -8,7 +8,7 @@ def calculate_efficiency(actual_output, target_output):
     return (actual_output / target_output) * 100
 
 # -------------------------------------------------------------------
-# 2. Status Classifier (copied from notebook)
+# 2. Status Classifier (
 # -------------------------------------------------------------------
 def get_operational_status(efficiency):
     """Classify efficiency into Critical / Warning / Normal."""
@@ -20,7 +20,7 @@ def get_operational_status(efficiency):
         return "Normal"
 
 # -------------------------------------------------------------------
-# 3. Mock data – same as in the notebook
+# 3. Mock data
 # -------------------------------------------------------------------
 MOCK_SITES = [
     {"name": "North Depot", "actual_output": 8200, "target_output": 10000},
