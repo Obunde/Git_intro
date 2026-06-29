@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# test.py – Mock tests for the Ops Analyzer logic
-
 # -------------------------------------------------------------------
 # 1. KPI Function (copied from notebook)
 # -------------------------------------------------------------------
