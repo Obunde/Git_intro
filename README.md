@@ -1,3 +1,4 @@
+
 # Week 1: Operations Analyzer
 
 A beginner-friendly Python project that demonstrates core programming concepts through operational performance analysis of fuel depots.
@@ -43,6 +44,7 @@ week1-operations-analyzer/
 The program follows a logical sequence:
 
 ### 1. Define Operational Data
+
 I created a dictionary called `depots` that stores actual and target output for three fuel depots (Nairobi, Nakuru, and Mombasa). Each depot is a key with a nested dictionary containing `actual_output` and `target_output` values.
 
 ```python
@@ -63,6 +65,7 @@ depots = {
 ```
 
 ### 2. Calculate Efficiency
+
 The `calculate_efficiency()` function computes how well each depot performed:
 
 ```
@@ -72,6 +75,7 @@ Efficiency = (Actual Output / Target Output) × 100
 The result is rounded to 2 decimal places for clean reporting. The function also handles edge cases (e.g., zero target output) to prevent crashes.
 
 ### 3. Determine Operational Status
+
 The `get_operational_status()` function classifies efficiency into three performance bands:
 
 - **< 70%** → "critical" (urgent attention needed)
@@ -79,10 +83,13 @@ The `get_operational_status()` function classifies efficiency into three perform
 - **≥ 90%** → "normal" (performing as expected)
 
 ### 4. Process Each Depot
+
 A `for` loop iterates through the depots dictionary, extracts the actual and target values, calculates efficiency, and determines status for each depot.
 
 ### 5. Generate Formatted Report
+
 For each depot, the program prints a clean, visually-organized report with emojis as status indicators:
+
 - 🟢 Green circle for "normal"
 - 🟡 Yellow circle for "warning"
 - 🔴 Red circle for "critical"
@@ -128,6 +135,6 @@ This assignment demonstrates that Python can be used to automate routine analysi
 
 ---
 
-**Assignment Context:** Week 1 of the Data Analytics and AI program (DICEE)  
-**Language:** Python 3  
+**Assignment Context:** Week 1 of the Data Analytics and AI program (DICEE)
+**Language:** Python 3
 **Environment:** Jupyter Notebook

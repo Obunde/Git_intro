@@ -1,16 +1,4 @@
-"""Simple data analysis utilities.
-
-Usage:
-  - Run as a script to load a CSV and print basic stats:
-      python simple_analysis.py data.csv
-
-Provides:
-  - load_csv(path): returns pandas.DataFrame
-  - summarize(df): prints row/column counts and numeric column statistics
-  - save_summary(df, out_path): saves summary as CSV
-"""
 from __future__ import annotations
-
 import sys
 from pathlib import Path
 from typing import Optional
